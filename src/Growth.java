@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Growth {
 
@@ -9,6 +10,13 @@ public class Growth {
 		
 		System.out.println("Let's calculate subs!");
 		System.out.println("This program uses y = a(1 + r)^x");
+		
+		System.out.println("Enter initial value (a): ");
+		
+		Scanner scan = new Scanner(System.in);
+		int a = scan.nextInt();
+		
+		System.out.println(a);
 
 	}
 
