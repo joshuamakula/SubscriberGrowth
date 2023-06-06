@@ -22,7 +22,11 @@ public class Growth {
 		System.out.println("time interval (x): ");
 		int x = scan.nextInt();
 		
-		
+		System.out.println(calculateSubs(a, r, x));
+	}
+	
+	public static int calculateSubs(int a, double r, int x) {
+		return (int) (a * Math.pow((1+r), x)) ;
 	}
 
 }
