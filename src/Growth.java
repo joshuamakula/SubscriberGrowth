@@ -15,9 +15,14 @@ public class Growth {
 		
 		Scanner scan = new Scanner(System.in);
 		int a = scan.nextInt();
+				
+		System.out.println("Enter growth rate (r): ");
+		double r = scan.nextDouble();
 		
-		System.out.println(a);
-
+		System.out.println("time interval (x): ");
+		int x = scan.nextInt();
+		
+		
 	}
 
 }
